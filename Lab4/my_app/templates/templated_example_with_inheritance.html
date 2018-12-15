@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <div>Общая часть</div>
+    <div>
+        {% block body %}Переопределяется в наследниках{% endblock %}
+    </div>
+    <br>
+    <a href="/">На главную страницу</a>
+</body>
+</html>

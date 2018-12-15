@@ -1,0 +1,13 @@
+{% extends 'templated_example_with_inheritance.html' %}
+
+{% block title %}Список элементов!{% endblock %}
+{% block body %}
+    <ul>
+        {% for element in elements %}
+            <li>
+                {{ element }}
+            </li>
+        {% endfor %}
+    </ul>
+    <a href="../templated_example_with_inheritance">New list of random integers</a><br>
+{% endblock %}
