@@ -1,0 +1,31 @@
+{% extends 'homeTemplate.html' %}
+
+{% block title %}Модель{% endblock %}
+{% block body %}
+<div>
+    <div>
+    <h4>Программисты:</h4>
+    </div>
+    <div class="container">
+        {% for programmer in programmers %}
+            <div class="row">
+                <span class="border">
+                    <div class="col-sm-8">
+                        <h6>
+                            {{programmer.firstname}}
+                            {{ programmer.username }}
+                            {{programmer.lastname}}
+                        </h6>
+                            Участвовал в написании программ:
+                                {% for program in programmer.programs %}
+                                    <li>
+                                        {{ program }}
+                                    </li>
+                                {% endfor %}
+                        </p>
+                    </div>
+                </span>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
