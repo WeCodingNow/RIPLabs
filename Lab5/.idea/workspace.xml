@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31091588-7810-4953-af06-6e77693adac4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab5_simple_script/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab5_simple_script/book_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab5_simple_script/mysql_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Отчеты/Отчет 4.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Отчеты/Отчет 4.docx" afterDir="false" />
-    </list>
+    <list default="true" id="31091588-7810-4953-af06-6e77693adac4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +12,7 @@
     <session id="978525726">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -73,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab5/DBExample/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="6" selection-start-line="6" selection-end-line="29" selection-end-column="69" />
+            <state relative-caret-position="306">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
                 <marker date="1545605319519" expanded="true" signature="266:842" ph="..." />
@@ -136,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1701" />
     <option name="y" value="-28" />
     <option name="width" value="550" />
@@ -225,8 +219,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2208" height="1208" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="2208" height="1208" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.087016575" />
       <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.12338858" />
@@ -327,8 +320,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab5/DBExample/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="6" selection-start-line="6" selection-end-line="29" selection-end-column="69" />
+        <state relative-caret-position="306">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
             <marker date="1545605319519" expanded="true" signature="266:842" ph="..." />
