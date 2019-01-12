@@ -7,12 +7,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <title>Лаба 5</title>
+    <title>Домашнее задание 1</title>
 </head>
 <body>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="/">RIPLAB5</a>
+    <a class="navbar-brand" href="/">Домашнее задание 1</a>
     <button class="navbar-toggler"
             type="button"
             data-toggle="collapse"
@@ -23,15 +23,14 @@
         <ul class="navbar-nav">
             <li class="nav-item">
                 {% if user.is_authenticated %}
+            <li class="nav-item">
+                <a class="nav-link" href="/programs">Проги</a>
+            </li>
                 <a class="nav-link" href="/logout">Выйти</a>
                 {% else %}
                 <a class="nav-link" href="/login">Войти</a>
                 {% endif %}
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/programs">Проги</a>
-            </li>
-
         </ul>
     </div>
 </nav>
