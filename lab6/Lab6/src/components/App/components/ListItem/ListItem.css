@@ -1,0 +1,7 @@
+.list-item {
+    display: block;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 2px;
+    width:150px;
+}
